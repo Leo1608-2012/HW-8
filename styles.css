@@ -1,0 +1,12 @@
+:root {
+--main-color:#ff0000;
+--add-color:rgb(27,156,27);
+}
+a {
+    color:var(--main-color)
+}
+div {
+    background-color: var(--add-color, orange) ;
+    
+}
+ 

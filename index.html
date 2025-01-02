@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW-8</title>
+    <link rel="stylesheet" href="styles.css"/>
     <style>
-        a[href="https"] {
-            color:red;
+        a[href^="https://"] {
+          color: rgb(255, 0, 0);
         }
-        ul p{
+        ul > p{
             font-size:24px;
         }
+         div {
+          background-color:rgb(113, 99, 161);
+         }
+         h1 {
+          color:#ff0000;
+         }    
     </style>
 </head>
 <body>
@@ -24,8 +31,8 @@
               <li><a href="#">link3</a></li>
             </ul>
           </li>
-          <li><a href="https://www.youtube.com/">link4</a></li>
-          <li><a href="https://validator.w3.org/">link5</a></li>
+          <li><a style="text-decoration: none;" href="https://www.youtube.com/">link4</a></li>
+          <li><a style="text-decoration: none;" href="https://validator.w3.org/">link5</a></li>
           <li><a href="#">link6</a></li>
         </ul>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.</p>
